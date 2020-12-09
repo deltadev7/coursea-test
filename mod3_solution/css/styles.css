@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+#header-nav button,
+.navbar-toggle span {
+    border: 1px solid black;
+}
+
+#header-nav {
+    background-color: rgb(226, 226, 226);
+}
+
+.navbar-brand {
+    margin: 15px 0;
+    padding-left: 0;
+}
+
+.navbar-brand a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+#header-nav button {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#nav-list li {
+    text-align: center;
+}
+
+#firstListItem {
+    background-color: rgb(243, 179, 149);
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+#firstListItem:hover {
+    background-color: rgb(215, 0, 253);
+}
+
+#firstListItem a {
+    color: #000;
+}
+
+#firstListItem a:hover {
+    color: #fff;
+}
+
+#secondListItem {
+    background-color: rgb(192, 251, 192);
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+#secondListItem:hover {
+    background-color: rgb(215, 0, 253);
+}
+
+#secondListItem a {
+    color: #000;
+}
+
+#secondListItem a:hover {
+    color: #fff;
+}
+
+#thirdListItem {
+    background-color: rgb(165, 219, 250);
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+#thirdListItem:hover {
+    background-color: rgb(215, 0, 253);
+}
+
+#thirdListItem a {
+    color: #000;
+}
+
+#thirdListItem a:hover {
+    color: #fff;
+}
+
+#main-content h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+
+#chickenSection {
+    background-color: rgb(243, 179, 149);
+    padding: 10px 15px;
+}
+
+#chickenSection p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#beefSection {
+    background-color: rgb(192, 251, 192);
+    padding: 10px 15px;
+}
+
+#beefSection p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#sushiSection {
+    background-color: rgb(165, 219, 250);
+    padding: 10px 15px;
+}
+
+#sushiSection p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+@media(max-width: 768px) {
+    #main-content {
+        margin: 0 30px;
+    }
+    .navbar-brand {
+        padding-left: 30px;
+    }
+}
